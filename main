@@ -1,0 +1,109 @@
+input_dayrate = input("RATE YOUR DAY! (Scale of 1 to 10)")
+
+if input_dayrate == '4':
+    print("You're almost there! I believe tomorrow will be better. \n")
+elif input_dayrate == '1': 
+    print("Awww man...Tomorrow will be better :) \n")
+elif input_dayrate == '2': 
+    print("So sorry to hear that. I hope tomorrow will treat you better! \n")
+elif input_dayrate == '3': 
+    print("So sorry to hear that. I hope tomorrow will treat you better!\n")
+elif input_dayrate == '0': 
+    print("That's not on the scale, silly! On the bright side it can only go up from here!\n")
+elif input_dayrate == '5': 
+    print("About average, eh? I'm sure tomorrow will be better!\n")
+elif input_dayrate == '6': 
+    print("Wowza! That's pretty good...Let's make tomorrow the same!\n")
+elif input_dayrate == '7': 
+    print("Wowza! That's pretty good...Let's make tomorrow the same!\n")    
+elif input_dayrate == '8': 
+    print("I hope tomorrow is just as good!\n")
+elif input_dayrate == '9': 
+    print("That's actually really impressive...Let's make tomorrow a 10!\n")
+elif input_dayrate == '10': 
+    print("Let's keep it this way ;) \n")
+elif input_dayrate == '11': 
+    print("Off the charts!?\n")
+else: 
+    print("1 to 10 please!\n")
+    input_dayrate = input("GO AGAIN! (Scale of 1 to 10)")
+    if input_dayrate == '4':
+        print("You're almost there! I believe tomorrow will be better. \n")
+    elif input_dayrate == '1': 
+        print("Awww man...Tomorrow will be better :) \n")
+    elif input_dayrate == '2': 
+        print("So sorry to hear that. I hope tomorrow will treat you better! \n")
+    elif input_dayrate == '3': 
+        print("So sorry to hear that. I hope tomorrow will treat you better!\n")
+    elif input_dayrate == '0': 
+        print("That's not on the scale, silly! On the bright side it can only go up from here!\n")
+    elif input_dayrate == '5': 
+        print("About average, eh? I'm sure tomorrow will be better!\n")
+    elif input_dayrate == '6': 
+        print("Wowza! That's pretty good...Let's make tomorrow the same!\n")
+    elif input_dayrate == '7': 
+        print("Wowza! That's pretty good...Let's make tomorrow the same!\n")    
+    elif input_dayrate == '8': 
+        print("I hope tomorrow is just as good!\n")
+    elif input_dayrate == '9': 
+        print("That's actually really impressive...Let's make tomorrow a 10!\n")
+    elif input_dayrate == '10': 
+        print("Let's keep it this way ;) \n")
+    elif input_dayrate == '11': 
+        print("Off the charts!?\n")
+
+input_convostarters = input("Choose a conversation starter! \nFind a group of friends (pre-existing or at school or online or something!) Pick a card, any card. (1 to 10) ")
+if input_convostarters == '1': 
+    print("How has the COVID-19 pandemic impacted your daily routine?\n")
+elif input_convostarters == '2': 
+    print("How has your social interaction changed during this pandemic?\n")
+elif input_convostarters == '3': 
+    print("What new hobbies have you picked up over quarantine?\n")
+elif input_convostarters == '4': 
+    print("How has the pandemic affected your job status?\n")
+elif input_convostarters == '5': 
+    print(" What music/podcasts did you listen to over quarantine?\n")
+elif input_convostarters == '6': 
+    print(" What company/store has helped you most over quarantine?\n")
+elif input_convostarters == '7': 
+    print("Do you want to go back to school/work?\n")
+elif input_convostarters == '8': 
+    print("How did your productivity change over quarantine?\n")
+elif input_convostarters == '9': 
+    print("Have you found out about any small businesses over the pandemic?\n")
+elif input_convostarters == '10': 
+    print("What was your favorite pastime during quarantine?\n")
+elif input_convostarters == '0':
+    print("That doesn't work here.\n")
+elif input_convostarters == '11':
+    print("That doesn't work here.\n")
+else: 
+    print("I said 1 to 10, bucko.\n")
+
+input_agane = 'test'
+while input_agane != 'no':
+    input_agane = input("Want another one? (1 to 10, no if no)\n")
+    if input_agane == input_convostarters: 
+        print("Huh...Did you think they were shuffled or something? Sorry to disappoint, but I'm not that good at coding.\n")    
+    if input_agane == '1': 
+        print("How has the COVID-19 pandemic impacted your daily routine?\n")
+    elif input_agane == '2': 
+        print("How has your social interaction changed during this pandemic?\n")
+    elif input_agane == '3': 
+        print("What new hobbies have you picked up over quarantine?\n")
+    elif input_agane == '4': 
+        print("How has the pandemic affected your job status?\n")
+    elif input_agane == '5': 
+        print(" What music/podcasts did you listen to over quarantine?\n")
+    elif input_agane == '6': 
+        print(" What company/store has helped you most over quarantine?\n")
+    elif input_agane == '7': 
+        print("Do you want to go back to school/work?\n")
+    elif input_agane == '8': 
+        print("How did your productivity change over quarantine?\n")
+    elif input_agane == '9': 
+        print("Have you found out about any small businesses over the pandemic?\n")
+    elif input_agane == '10': 
+        print("What was your favorite pastime during quarantine?\n")
+    else: 
+        print("Pick 1 to 10 please!\n")
